@@ -20,5 +20,4 @@ UnityBoard is a real-time collaboration platform designed to simplify teamwork a
 ## Setup and Installation
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/NextGen-Internship-P1-Week1.git
-   cd NextGen-Internship-P1-Week1-main
+   git clone https://github.com/Shubhraweb89/UnityBoard.git

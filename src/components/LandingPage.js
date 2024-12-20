@@ -8,11 +8,14 @@ const LandingPage = () => {
             <div className="jumbotron bg-light p-4 shadow-lg rounded">
                 <h1 className="display-5">Welcome to UnityBoard !</h1>
                 <p className="lead">
-                UnityBoard is your go-to platform for seamless real-time collaboration.
+                "UnityBoard: Real-Time Collaboration, Simplified."
                 </p>
                 <hr className="my-4" />
                 <p>
-                    Work together on documents, share ideas, and communicate effortlessly with your team.
+                Work together on documents, share ideas, and communicate with your team. 
+                </p>
+                <p>
+                Empower your collaboration with UnityBoard's seamless experience.
                 </p>
                 <div className="mt-4">
                     <Link to="/register" className="btn btn-gradient btn-lg me-3">Register</Link>

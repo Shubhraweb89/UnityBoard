@@ -1,10 +1,26 @@
+body {
+    background-image: url('https://media.istockphoto.com/id/1902034840/photo/electronic-document-management-system-concept-searching-and-business-managing-files-online.jpg?b=1&s=612x612&w=0&k=20&c=bJNJAPlDynJsSo6a5wEWK2oM_f-rY2D2W5AwnNFEZG0='); /* Add your background image URL here */
+    background-size: cover;
+    background-attachment: fixed; /* Parallax effect */
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: url('../pencil.png'), auto; /* Custom pencil cursor */
+}
+
 .container {
     max-width: 700px;
     margin: auto;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
 }
 
 .jumbotron {
-    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
     border-radius: 10px;
     padding: 1.5rem;
 }

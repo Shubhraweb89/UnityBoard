@@ -11,6 +11,10 @@ app.use(cors());
 mongoose.connect('mongodb://localhost:27017/auth', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
+}).then(() => {
+    console.log('Connected to MongoDB');
+}).catch((error) => {
+    console.error('Error connecting to MongoDB:', error);
 });
 
 const userSchema = new mongoose.Schema({
@@ -27,8 +31,10 @@ app.post('/api/auth/register', async (req, res) => {
     try {
         const user = new User({ name, email, password: hashedPassword });
         await user.save();
-        res.status(201).send({ message: 'User registered successfully' });
+        const token = jwt.sign({ userId: user._id }, 'secretkey');
+        res.status(201).send({ token });
     } catch (error) {
+        console.error('Error registering user:', error);
         res.status(400).send({ message: 'Error registering user' });
     }
 });

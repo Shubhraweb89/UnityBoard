@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import './Navbar.css'; // Import the new CSS file
-import logo from './logo.png'; // Import the logo image
+import logo from './logo.gif'; // Import the logo image
 
 const Navbar = () => {
     const navigate = useNavigate();
@@ -41,7 +41,7 @@ const Navbar = () => {
                     ) : (
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <Link className="nav-link btn btn-gradient me-2" to="/login">Login</Link>
+                                <Link className="nav-link btn btn-unboxed me-2" to="/login">Login</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link btn btn-gradient" to="/register">Register</Link>

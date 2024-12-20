@@ -1,14 +1,19 @@
 .navbar {
-    background-color: #f8f9fa; /* Off-white color */
+    background-color: rgba(255, 255, 255, 0.8); /* Off-white color with decreased opacity */
+    transition: background-color 0.3s;
 }
 
-.navbar-brand, .nav-link {
+.navbar-brand {
+    display: inline-block;
+}
+
+.nav-link {
     position: relative;
     display: inline-block;
     transition: transform 0.3s, color 0.3s;
 }
 
-.navbar-brand:hover, .nav-link:hover {
+.nav-link:hover {
     transform: translateY(-5px);
     color: #007bff; /* Change to a bright color on hover */
 }
@@ -30,4 +35,16 @@
 .btn-gradient:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-unboxed {
+    color: #007bff;
+    background: none;
+    border: none;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s;
+}
+
+.btn-unboxed:hover {
+    color: #0056b3;
 }

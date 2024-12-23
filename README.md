@@ -1,4 +1,4 @@
-# NextGen-Internship-P1-Week1
+# UnityBoard
 
 ## Project Overview
 UnityBoard is a real-time collaboration platform designed to simplify teamwork and enhance productivity. The application allows users to work together on documents, share ideas, and communicate seamlessly with their team. Key features include real-time document editing, instant messaging, task management, and file sharing.

@@ -1,0 +1,124 @@
+body {
+    background-image: url('https://media.istockphoto.com/id/1902034840/photo/electronic-document-management-system-concept-searching-and-business-managing-files-online.jpg?b=1&s=612x612&w=0&k=20&c=bJNJAPlDynJsSo6a5wEWK2oM_f-rY2D2W5AwnNFEZG0='); /* Add your background image URL here */
+    background-size: cover;
+    background-attachment: fixed; /* Parallax effect */
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: url('../pencil.png'); /* Custom pencil cursor */
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+}
+
+.jumbotron {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    border-radius: 10px;
+    padding: 1.5rem;
+}
+
+.display-4 {
+    font-weight: bold;
+    color: #343a40;
+}
+
+.display-5 {
+    font-weight: bold;
+    color: #343a40;
+}
+
+.lead {
+    font-size: 1.1rem;
+    color: #6c757d;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-lg {
+    padding: 0.75rem 1.25rem;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+}
+
+.shadow-lg {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+}
+
+.btn-gradient {
+    background: linear-gradient(45deg, #007bff, #0056b3);
+    border: none;
+    color: white;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.btn-gradient:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-green {
+    background: linear-gradient(45deg, #28a745, #218838);
+    border: none;
+    color: white;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.btn-green:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.features {
+    margin-top: 2rem;
+}
+
+.features h2 {
+    font-size: 1.5rem;
+    color: #343a40;
+}
+
+.features ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.features li {
+    font-size: 1.1rem;
+    color: #6c757d;
+    margin-bottom: 0.5rem;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.feature-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.feature-image:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
